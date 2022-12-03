@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="@dimen/small_space">
 
     <EditText
         android:id="@+id/editTextEmailAddress"
@@ -22,8 +22,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:onClick="loginOnClick" />
+        android:onClick="loginOnClick"
+        android:text="@string/login" />
 
     <TextView
         android:id="@+id/textViewDisplayAccount"
@@ -47,4 +47,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/textview3" />
+
+    <Button
+        android:id="@+id/buttonAboutAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_android_views" />
 </LinearLayout>
